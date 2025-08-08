@@ -10,8 +10,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # API tokenlar
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+TELEGRAM_TOKEN = os.getenv("7731519812:AAHdfhUpz1OZe44b98eleN3zl3eaB1ImsYs")
+OPENAI_API_KEY = os.getenv("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")
 openai.api_key = OPENAI_API_KEY
 
 # Telegram logging
